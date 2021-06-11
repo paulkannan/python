@@ -14,7 +14,8 @@ if __name__ == '__main__':
     if (n>0 & n<=100):
         if (n % 2 == 0 and n>20):
             print("Not Weird")
-        elif (n % 2 == 0 and n>5) and (n<=20):
+        //elif (n % 2 == 0 and n>5) and (n<=20):
+        if(n%2==1) or n in range (5,21):
             print("Weird")
         elif(n % 2 == 0 and n>1) and (n <=5):
             print("Not Weird")
