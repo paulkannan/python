@@ -9,7 +9,10 @@ def reverse(mystr):
         mylist.append(mystr[word])
     return ''.join(mylist)
 
+def smartreverse(mystr):
+    return ''.join(list(reversed(mystr)))
 
 mystring= "My name is Paul"
 
 print(reverse(mystring))
+print(smartreverse(mystring))
